@@ -2,12 +2,6 @@ class Application:
 	
 	SpeedOfLight = 3000000000.0
 	
-	def AmountOfMomentum(self, InitialVelocity, FinalVelocity, TimeTook):
-		return float((FinalVelocity - InitialVelocity) / TimeTook)
-	
-	def AmountOfEnergy(self, Mass, Momentum):
-		return float(pow(Mass, 2) * pow(self.SpeedOfLight, 4) + pow(Mass, 2) * pow(SpeedOfLight, 2))
-	
 	def __init__(self):
 		# Variables
 		Mass = 0.0
