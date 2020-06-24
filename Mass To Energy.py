@@ -91,7 +91,7 @@ class Application:
 			
 			# Printing out Math
 			print("The amount of energy to make mass with other energy states is: ")
-			print(str(pow(Mass, 2) * pow(self.SpeedOfLight, 4) + pow((FinalVelocity - InitialVelocity) / TimeTook, 2) + pow(self.SpeedOfLight, 2))  + "joules")
+			print(str(pow(Mass, 2) * pow(self.SpeedOfLight, 4) + pow(((FinalVelocity - InitialVelocity) / TimeTook, 2) * Mass) + pow(self.SpeedOfLight, 2))  + "joules")
 		else:
 			print("What you select is not option.")
 			exit()
